@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+body {
+    background-image: url('img/fondo.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    color: #ffffff; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+img{
+    max-width: 100%;
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+section {
+    background:#999898ce; 
+    padding: 0 5%;
+}
+h1{
+    color: rgba(0, 0, 0, 0.801);
+    font-size: 30px;
+    font-family: "Nosifer", serif;
+    background: linear-gradient(to bottom, #f5adad, #b60303);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+span{
+    font-weight: bold;
+    width: 100%;
+}
+#inicio{
+    background-image: url(img/leopardo.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0px 0px 202px -37px rgba(0,0,0,0.97);
+    height: 70vh;
+    position: relative;
+}
+#inicio >div{
+    position: absolute;
+    bottom:5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#documental{
+    padding: 2% 5%;
+    position: relative;
+}
+#documental img{
+    width: 10%;
+}
+#documental a{
+    border: #b60303 solid 3px;
+    padding: 1%;
+    align-items: center;
+    margin-left: 70%;
+    font-weight: bold;
+    color: white;
+}
+
+hr{
+    height: 4vh;
+}
