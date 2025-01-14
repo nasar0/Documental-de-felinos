@@ -3,16 +3,12 @@
 *{
     font-family: "Roboto", sans-serif;
 }
-body {
-    background-image: url('img/fondo12.jpg');
-    background-size: contain;
-    background-repeat: repeat;
-    background-position: bottom;
+#inicio {
+    background-color: #3B4753;
     color: #ffffff; 
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-
 }
 img{
     max-width: 100%;
@@ -21,11 +17,11 @@ p{
     text-align: justify;
     font-size: 20px;
 }
-section {
+#inicio section {
     background:#999898ce; 
     padding: 0 5%;
 }
-h1{
+.titleh1{
     color: rgba(0, 0, 0, 0.801);
     font-size: 30px;
     font-family: "Nosifer", serif;
@@ -33,22 +29,20 @@ h1{
     -webkit-background-clip: text;
     color: transparent;
 }
-#title{
+.title{
     color: rgba(0, 0, 0, 0.801);
     font-size: 40px;
-    font-family: "Special Elite", cursive;
-    font-style: italic;
+    font-family: "Special Elite";
     background: linear-gradient(to right,#000000, #2D363B,#474747,#474747);
     -webkit-background-clip: text;
     color: transparent;
 }
-
 span{
     font-weight: bold;
     width: 100%;
 }
-#inicio{
-    background-image: url(img/leopardo.png);
+#inicio #inicio1{
+    background-image: url(img/inicio/leopardo.png);
     background-repeat: no-repeat; 
     background-size: cover;
     background-position: center;
@@ -56,7 +50,7 @@ span{
     height: 70vh;
     position: relative;
 }
-#inicio >div{
+#inicio1 >div{
     position: absolute;
     bottom:5%;
     left: 50%;
@@ -96,16 +90,17 @@ span{
 .card-title {
     font-size: 1.2rem;
     margin-bottom: 10px; 
-    
     color: rgb(255, 255, 255);
+    font-weight: bold;
 }
+
 
 
 .card-text {
     font-size: 1rem; 
     margin-bottom: 10px;
     flex-grow: 1; 
-    color: white;
+    color:  rgba(255, 255, 255, 0.61);
 }
 
 .btn {
@@ -177,60 +172,79 @@ footer a:hover::after {
     color: #ffffff;
     border: #ffffff solid;
 }
-#leon:hover {
+#inicio #leon:hover {
     background: linear-gradient(45deg, #F4C542, #6B4F1A);
     color: white;
 }
 
-#tigre:hover {
+#inicio #tigre:hover {
     background: linear-gradient(45deg, #FF7F32, #000000);
     color: white;
 }
 
-#jaguar:hover {
+#inicio #jaguar:hover {
     background: linear-gradient(45deg, #FFB800, #000000);
     color: white;
 }
 
-#leopardo:hover {
+#inicio #leopardo:hover {
     background: linear-gradient(45deg, #F1C232, #4B3621);
     color: white;
 }
 
-#leopardo-nieves:hover {
+#inicio #leopardo-nieves:hover {
     background: linear-gradient(45deg, #FFFFFF, #B8B8B8);
     color: rgb(0, 0, 0);
     font-weight: bold;
 }
 
-#guepardo:hover {
+#inicio #guepardo:hover {
     background: linear-gradient(45deg, #FFEB3B, #000000);
     color: white;
 }
 
-#lince:hover {
+#inicio #lince:hover {
     background: linear-gradient(45deg, #A9A9A9, #F5F5DC);
     color: rgb(0, 0, 0);
     font-weight: bold;
 }
 
-#margay:hover {
+#inicio #margay:hover {
     background: linear-gradient(45deg, #8B4513, #228B22);
     color: white;
 }
-#simios:hover {
+#inicio #simios:hover {
     background: linear-gradient(45deg, #331605, #8A4B29); 
     color: white;
 }
 
-#zorro:hover {
+#inicio #zorro:hover {
     background: linear-gradient(45deg, #C4B8A6, #A9A9A9); 
     color: white;
 }
 
-#komodo:hover {
+#inicio #komodo:hover {
     background: linear-gradient(45deg, #2F4F4F, #6B8E23); 
     color: white;
 }
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+#body-leon{
+    background-color: #7B5D1E;
+}
+#body-leon #leon{
+    background:url(img/leon/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
 
-
+}
+#baner h1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to right, #4B5320,#0f1102, #29211f, #4E1D1C,#201304); /* Gradiente */
+    -webkit-background-clip: text; 
+    color: transparent;
+    
+}
