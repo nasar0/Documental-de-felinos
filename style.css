@@ -41,6 +41,9 @@ span{
     font-weight: bold;
     width: 100%;
 }
+section{
+    background-color: rgba(255, 255, 255, 0.74);
+}
 #inicio #inicio1{
     background-image: url(img/inicio/leopardo.png);
     background-repeat: no-repeat; 
@@ -143,6 +146,7 @@ footer a{
     font-size: 12px;
 }
 footer h2{
+    color: white;
     font-size: 14px;
 }
 footer p{
@@ -243,8 +247,26 @@ footer a:hover::after {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: linear-gradient(to right, #4B5320,#0f1102, #29211f, #4E1D1C,#201304); /* Gradiente */
+    background: linear-gradient(to right,rgb(121, 119, 119), #4B5320, #4E1D1C); /* Gradiente */
     -webkit-background-clip: text; 
     color: transparent;
     
+}
+#leon-main h2{
+    color: #4E1D1C;
+    font-weight: bold;
+}
+#leon-main .card-body {
+    background: linear-gradient(to bottom, #4B5320,#4E1D1C);
+}
+#queson{
+    padding: 5% 0;
+    display: flex;
+    justify-content: space-around;
+    div{
+        width: 50%;
+    }
+}
+#video-leon{
+    height: 100vh;
 }
