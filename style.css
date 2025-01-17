@@ -270,3 +270,6 @@ footer a:hover::after {
 #video-leon{
     height: 100vh;
 }
+#fotos {
+    background-color: #000000;
+}
