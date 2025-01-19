@@ -11,8 +11,32 @@
 </head>
 
 <body id="fotos">
-    <header class="container">
-
+    <header class="">
+        <nav class="navbar" aria-label="First navbar example">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="img/inicio/icon.jpg"alt=""></a>
+              <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        
+              <div class="navbar-collapse collapse text-uppercase"  id="navbarsExample01" >
+                <ul class="navbar-nav me-auto mb-2 m-auto ">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="equipo.html">Equipo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="leopardo.html">leopardo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="leon.html">leon</a>
+                  </li>
+                
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
         <section class="container">
@@ -25,21 +49,22 @@
             </div>
         </section>
         <section class="container">
-            <div class="row d-flex justify-content-center pt-5 pb-5">
-                <div class="col-5 align-items-center d-flex">
-                    <p class="text-justify ">
-                        <span class="">Biografía del Equipo</span><br>
+            <div class="row d-flex flex-sm-column flex-xxl-row align-items-center pt-5 pb-5">
+                <div class="col-12 col-md-6 mb-4 mb-md-0">
+                    <p class="text-justify">
+                        <span class="fw-bold">Biografía del Equipo</span><br>
                         Somos un grupo apasionado de fotógrafos e historiadores dedicados a capturar y preservar las
                         historias que moldean nuestro mundo. Unidos por una misión común, combinamos el poder de la
                         imagen y la narrativa para explorar las profundidades de la historia, las culturas, y los
-                        paisajes que definen la experiencia humana
+                        paisajes que definen la experiencia humana.
                     </p>
                 </div>
-                <div class="col-5">
-                    <img src="img/equipo/blacon.png" alt="">
+                <div class="col-12 col-md-6">
+                    <img class="img-fluid" src="img/equipo/blacon.png" alt="Equipo en acción">
                 </div>
             </div>
         </section>
+        
         <section class="container">
             <div class="row">
                 <div class="col-12">
@@ -101,6 +126,31 @@
                 </div>
                 <div class="col-12 d-flex justify-content-center pt-5 pb-5">
                     <img src="img/equipo/niños.webp" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="container pb-5 pt-5">
+            <div class="row d-flex align-items-center">
+                <div class="col-12"><h2 class="pb-3 text-center">Nuestros Logros Mas Destacados</h2></div>
+                <div class="col-6 text-justify" id="parrafo">
+                    <h5 class="pt-3">Premios Internacionales de Fotografía</h5>
+                    <p>Nuestro compromiso con la excelencia visual y la autenticidad ha sido reconocido a nivel mundial. Hemos obtenido premios en prestigiosos concursos como:
+                    </p>
+                    <p>
+                        World Press Photo: Por capturar momentos que trascienden las barreras del lenguaje, mostrando la humanidad en su forma más pura.
+                    </p>
+                    <p>Wildlife Photographer of the Year: Por destacar la belleza de la naturaleza y la urgencia de preservarla a través de nuestras imágenes.</p>
+                </div>
+                <div class="col-6">
+                    <img src="img/equipo/trofeo.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="row pb-5">
+                <div class="col-12 d-flex justify-content-center"><h2>Mira nustro documental mas especial</h2></div>
+                <div class="col-12 d-flex justify-content-center">
+                    <iframe src="https://www.youtube.com/embed/6bytShpwHZU?si=LmNz1vp0vOFIILZ6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
         </section>
