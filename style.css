@@ -298,3 +298,16 @@ nav button{
 nav a{
     color: #ffffff !important;
 }
+.banner {
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url('img/testimonios/banner.jpg')
+}
+.img-section {
+    max-height: 300px;
+    object-fit: cover;
+}
+#fotos{
+    background-color: #0000001f;
+}
