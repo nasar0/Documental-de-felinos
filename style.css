@@ -25,7 +25,7 @@ p{
     color: rgba(0, 0, 0, 0.801);
     font-size: 30px;
     font-family: "Nosifer", serif;
-    background: linear-gradient(to bottom, #f5adad, #b60303);
+    background: linear-gradient(to bottom, #420000, #950202);
     -webkit-background-clip: text;
     color: transparent;
 }
@@ -310,4 +310,22 @@ nav a{
 }
 #fotos{
     background-color: #0000001f;
+}
+
+#jaguar .banner{
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url('img/jaguar/banner.jpg')
+}
+#jaguar section{
+    color:#fff;
+    background-color: #2C5234;
+}
+#jaguar main {
+    background-color: #F5F5DC;
+}
+#jaguar section:last-child{
+    color:#fff;
+    background-color: #4e5351;
 }
